@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TicketClientApplication.Models.Booking>
+
+@{
+    ViewData["Title"] = "GetBooking";
+}
+
+    <h1>Booked Ticket List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            @*@<th>
+            @Html.DisplayNameFor(model => model.Booking_Id)
+        </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.User_Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ticket_Id)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            @*<td>
+            @Html.DisplayFor(modelItem => item.Booking_Id)
+        </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.User_Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ticket_Id)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+        </tr>
+}
+    </tbody>
+</table>

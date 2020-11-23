@@ -1,0 +1,56 @@
+﻿@model IEnumerable<TicketClientApplication.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <h1>Tickets&Details</h1>
+
+    <p>
+        <a class="btn btn-success" href="@Url.Action("GetBookingItems","TicketList" )">Your Booking Details</a>
+
+    </p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ticket_Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+               @*@Html.DisplayNameFor(model => model.Status)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ticket_Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.Status)*@
+            </td>
+            <td>
+                @* @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                <a class="btn btn-success" href="@Url.Action("Book","TicketList",new { id = item.Ticket_Id  })">Book</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
