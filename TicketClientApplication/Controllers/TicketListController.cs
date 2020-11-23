@@ -107,7 +107,7 @@ namespace TicketClientApplication.Controllers
             else
             {
 
-                Ticket p = new Ticket();
+                Ticket t = new Ticket();
 
                 using (var client = new HttpClient())
                 {
@@ -121,7 +121,7 @@ namespace TicketClientApplication.Controllers
                     {
 
                         string apiResponse = await response.Content.ReadAsStringAsync();
-                        p = JsonConvert.DeserializeObject<Ticket>(apiResponse);
+                        t = JsonConvert.DeserializeObject<Ticket>(apiResponse);
                     }
 
                     b.User_Id = Convert.ToInt32(HttpContext.Session.GetInt32("User_Id"));

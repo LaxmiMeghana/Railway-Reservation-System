@@ -162,5 +162,4 @@ C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\TicketCli
 C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
 C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\Razor\Views\TicketList\Book.cshtml.g.cs
 C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\Razor\Views\TicketList\GetBookingItems.cshtml.g.cs
-C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Stimulation project\TicketClientApplication\obj\Debug\netcoreapp3.1\Razor\Views\TicketList\Index.cshtml.g.cs

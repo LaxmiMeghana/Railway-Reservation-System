@@ -235,3 +235,55 @@ INFO  05:53:29 Http GET is accesed
 INFO  05:53:34 Http GET is accessed2
 INFO  05:53:40 Http GET is accessed2
 INFO  05:53:43 Http GET is accesed
+INFO  10:03:29 Application started. Press Ctrl+C to shut down.
+INFO  10:03:29 Application started. Press Ctrl+C to shut down.
+INFO  10:03:29 Hosting environment: Development
+INFO  10:03:29 Hosting environment: Development
+INFO  10:03:29 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:03:29 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:03:46 Http GET is accesed
+INFO  10:08:07 Application started. Press Ctrl+C to shut down.
+INFO  10:08:07 Application started. Press Ctrl+C to shut down.
+INFO  10:08:07 Hosting environment: Development
+INFO  10:08:07 Hosting environment: Development
+INFO  10:08:07 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:08:07 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:10:30 Http GET is accesed
+INFO  10:10:42 Http GET is accessed7
+INFO  10:10:45 Http GET is accessed7
+INFO  10:10:48 Http GET is accesed
+INFO  10:11:08 Http GET is accesed
+INFO  10:12:10 Http GET is accesed
+INFO  10:12:15 Http GET is accessed5
+INFO  10:12:18 Http GET is accessed5
+INFO  10:12:18 Http GET is accesed
+INFO  10:13:53 Http GET is accessed2
+INFO  10:15:16 Http GET is accesed
+INFO  10:15:30 Http GET is accessed2
+INFO  10:15:33 Http GET is accessed2
+INFO  10:15:33 Http GET is accesed
+INFO  10:15:58 Http GET is accesed
+INFO  10:16:19 Http GET is accessed2
+INFO  10:16:22 Http GET is accessed2
+INFO  10:16:22 Http GET is accesed
+INFO  10:19:39 Application started. Press Ctrl+C to shut down.
+INFO  10:19:40 Application started. Press Ctrl+C to shut down.
+INFO  10:19:40 Hosting environment: Development
+INFO  10:19:40 Hosting environment: Development
+INFO  10:19:40 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:19:40 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:26:35 Application started. Press Ctrl+C to shut down.
+INFO  10:26:35 Application started. Press Ctrl+C to shut down.
+INFO  10:26:35 Hosting environment: Development
+INFO  10:26:35 Hosting environment: Development
+INFO  10:26:35 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:26:35 Content root path: C:\Stimulation project\TicketService\TicketService
+INFO  10:27:44 Http GET is accesed
+INFO  10:29:36 Http GET is accesed
+INFO  10:29:41 Http GET is accessed2
+INFO  10:29:44 Http GET is accessed2
+INFO  10:29:51 Http GET is accesed
+INFO  10:32:30 Http GET is accesed
+INFO  10:32:34 Http GET is accessed2
+INFO  10:32:37 Http GET is accessed2
+INFO  10:32:37 Http GET is accesed

@@ -26,7 +26,7 @@ namespace TicketService.Repository
         public Ticket GetById(int ticket_id)
         {
             return dbContext.Tickets.FirstOrDefault(t => t.Ticket_Id == ticket_id);
-           // dbContext.Tickets.Where(x => x.Status == 1).ToListAsync();
+           
         }
     }
 }

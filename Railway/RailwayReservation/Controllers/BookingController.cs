@@ -24,7 +24,7 @@ namespace RailwayReservation.Models
             try
             {
 
-                _log4net.Info("Get BookingDetails by Id accessed");
+                _log4net.Info("Get BookingDetails by Id ");
                 var bookinglist = bookRepo.GetById(id);
                 return new OkObjectResult(bookinglist);
 
@@ -37,15 +37,15 @@ namespace RailwayReservation.Models
         }
 
         [HttpPost]
-        public IActionResult PostBookVehicle(Booking model)
+        public IActionResult PostBookTicket(Booking model)
         {
             try
             {
-                _log4net.Info("Book Details Getting Added");
+                _log4net.Info("Booking Details Getting Added");
                 if (ModelState.IsValid)
                 {
                     bookRepo.book(model);
-                    return CreatedAtAction(nameof(PostBookVehicle), new { id = model.Booking_Id }, model);
+                    return CreatedAtAction(nameof(PostBookTicket), new { id = model.Booking_Id }, model);
 
                 }
                 return BadRequest();

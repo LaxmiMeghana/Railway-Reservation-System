@@ -460,3 +460,49 @@ INFO  05:53:28  login method is run
 INFO  05:53:29  user not null
 INFO  05:53:29 Token Generation initiated
 INFO  05:53:29  token is obtained
+INFO  09:56:44 Application started. Press Ctrl+C to shut down.
+INFO  09:56:44 Application started. Press Ctrl+C to shut down.
+INFO  09:56:44 Hosting environment: Development
+INFO  09:56:44 Hosting environment: Development
+INFO  09:56:44 Content root path: C:\Stimulation project\AuthService\AuthService
+INFO  09:56:44 Content root path: C:\Stimulation project\AuthService\AuthService
+INFO  09:57:58  login method is running
+INFO  09:58:02  user not null
+INFO  09:58:02 Token Generation initiated
+INFO  09:58:03  token is obtained
+INFO  10:10:27  login method is running
+INFO  10:10:28  user not null
+INFO  10:10:28 Token Generation initiated
+INFO  10:10:28  token is obtained
+INFO  10:12:09  login method is running
+INFO  10:12:09  user not null
+INFO  10:12:09 Token Generation initiated
+INFO  10:12:09  token is obtained
+INFO  10:15:16  login method is running
+INFO  10:15:16  user not null
+INFO  10:15:16 Token Generation initiated
+INFO  10:15:16  token is obtained
+INFO  10:15:58  login method is running
+INFO  10:15:58  user not null
+INFO  10:15:58 Token Generation initiated
+INFO  10:15:58  token is obtained
+INFO  10:16:47  login method is running
+INFO  10:16:47  user null
+INFO  10:23:33 Application started. Press Ctrl+C to shut down.
+INFO  10:23:33 Application started. Press Ctrl+C to shut down.
+INFO  10:23:33 Hosting environment: Development
+INFO  10:23:33 Hosting environment: Development
+INFO  10:23:33 Content root path: C:\Stimulation project\AuthService\AuthService
+INFO  10:23:33 Content root path: C:\Stimulation project\AuthService\AuthService
+INFO  10:27:19  login method is running
+INFO  10:27:41  user not null
+INFO  10:27:41 Token Generation initiated
+INFO  10:27:41  token is obtained
+INFO  10:29:35  login method is running
+INFO  10:29:35  user not null
+INFO  10:29:35 Token Generation initiated
+INFO  10:29:35  token is obtained
+INFO  10:32:29  login method is running
+INFO  10:32:29  user not null
+INFO  10:32:29 Token Generation initiated
+INFO  10:32:29  token is obtained

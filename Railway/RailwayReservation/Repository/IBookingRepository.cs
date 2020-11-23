@@ -11,7 +11,6 @@ namespace RailwayReservation.Repository
     {
         public IEnumerable<Booking> GetById(int Bookingid);
 
-       // public Task<int> book(Booking entity);
         Booking book(Booking entity);
     }
 }

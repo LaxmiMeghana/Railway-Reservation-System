@@ -154,3 +154,44 @@ INFO  04:39:52 Get BookingDetails by Id accessed
 INFO  05:50:37 Get BookingDetails by Id accessed
 INFO  05:53:41 Book Details Getting Added
 INFO  05:53:48 Get BookingDetails by Id accessed
+INFO  09:47:48 Application started. Press Ctrl+C to shut down.
+INFO  09:47:48 Application started. Press Ctrl+C to shut down.
+INFO  09:47:48 Hosting environment: Development
+INFO  09:47:48 Hosting environment: Development
+INFO  09:47:48 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  09:47:48 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  09:48:14 Get BookingDetails by Id accessed
+INFO  09:48:22 Get BookingDetails by Id accessed
+INFO  09:53:59 Application started. Press Ctrl+C to shut down.
+INFO  09:53:59 Application started. Press Ctrl+C to shut down.
+INFO  09:53:59 Hosting environment: Development
+INFO  09:53:59 Hosting environment: Development
+INFO  09:53:59 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  09:53:59 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  09:54:21 Get BookingDetails by Id 
+INFO  10:10:46 Booking Details Getting Added
+INFO  10:10:54 Get BookingDetails by Id 
+INFO  10:11:02 Get BookingDetails by Id 
+INFO  10:11:03 Get BookingDetails by Id 
+INFO  10:11:11 Get BookingDetails by Id 
+INFO  10:12:18 Booking Details Getting Added
+INFO  10:12:20 Get BookingDetails by Id 
+INFO  10:15:33 Booking Details Getting Added
+INFO  10:15:38 Get BookingDetails by Id 
+INFO  10:16:22 Booking Details Getting Added
+INFO  10:19:03 Application started. Press Ctrl+C to shut down.
+INFO  10:19:03 Application started. Press Ctrl+C to shut down.
+INFO  10:19:03 Hosting environment: Development
+INFO  10:19:03 Hosting environment: Development
+INFO  10:19:03 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  10:19:03 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  10:25:18 Application started. Press Ctrl+C to shut down.
+INFO  10:25:18 Application started. Press Ctrl+C to shut down.
+INFO  10:25:18 Hosting environment: Development
+INFO  10:25:18 Hosting environment: Development
+INFO  10:25:18 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  10:25:18 Content root path: C:\Stimulation project\Railway\RailwayReservation
+INFO  10:29:45 Booking Details Getting Added
+INFO  10:29:53 Get BookingDetails by Id 
+INFO  10:32:37 Booking Details Getting Added
+INFO  10:32:39 Get BookingDetails by Id 

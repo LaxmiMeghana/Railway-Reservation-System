@@ -34,10 +34,6 @@ namespace TicketClientApplication.Controllers
             User Item = new User();
             using (var httpClient = new HttpClient())
             {
-                // StringContent content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
-                //var response = await httpClient.PostAsync("https://localhost:44312/api/AuthService/Customer", content);
-                //string apiResponse = await response.Content.ReadAsStringAsync();
-                //Item = JsonConvert.DeserializeObject<Customer>(apiResponse);
                 StringContent content1 = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
                 using (var response1 = await httpClient.PostAsync("https://localhost:44312/api/Auth/Login", content1))
                 {
@@ -69,9 +65,8 @@ namespace TicketClientApplication.Controllers
         }
         public ActionResult Logout()
         {
-            _log4net.Info("User Log Out");
+            _log4net.Info("User Logout");
             HttpContext.Session.Remove("token");
-            // HttpContext.Session.SetString("user", null);
 
             return View("Login");
         }

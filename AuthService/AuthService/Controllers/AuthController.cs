@@ -28,7 +28,7 @@ namespace AuthService.Controllers
         public IActionResult Login([FromBody] User login)
         {
 
-            _log4net.Info(" login method is run");
+            _log4net.Info(" login method is running");
             IActionResult response = Unauthorized();
             var user = _context.Users.FirstOrDefault(c => c.Username == login.Username && c.Password == login.Password);
             if (user == null)
@@ -36,7 +36,6 @@ namespace AuthService.Controllers
                 _log4net.Info(" user null");
                 return NotFound();
             }
-            // User user1=_context.Users.FirstOrDefault(u=>u.Username==)
 
             else
             {
